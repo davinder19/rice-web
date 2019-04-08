@@ -1,7 +1,7 @@
 {
     "name": "Rice Research World",
     "short_name": "Rice Web",
-    "start_url": "/",
+    "start_url": "",
     "disply":"standalone",
     "background_color": "red",
     "description": "Rice Research World Web",
