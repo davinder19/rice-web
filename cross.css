@@ -116,8 +116,11 @@ body{
     }    
        .main-section .med-img{
         width: 100%;
-        height: 50vh;
+        height: 35vh;
         margin-top: 1rem;
     }
-    
+    .main-section .small-img{
+    width: 100%;
+    height: 35vh;
+   }
 }
