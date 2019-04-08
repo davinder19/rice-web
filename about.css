@@ -30,18 +30,11 @@ body{
     text-align: left;
 }
 
-/* .about-section p{
-    margin-top: 0.5rem;
-    font-size: 1rem;
-    font-family: 'Libre Franklin', sans-serif;
-    line-height: 1.5rem;
-    letter-spacing: 1px;
-} */
 .about-section img{
     width: 100%;
    max-width: 25rem;
     height: 25vh;
-    /* filter: grayscale(5); */
+
 }
 .about-section .img-right{
     float: right;
@@ -57,22 +50,13 @@ body{
 }
 #about-section-2{
     padding: 4rem;
-    /* background: linear-gradient(rgba(117, 115, 115,0.3),rgba(117, 115, 115,0.3)), url(img2/field3.jpeg)  center/cover no-repeat border-box; */
- /* background: url(img2/field3.jpeg)  center/cover no-repeat border-box; 
-    background-attachment: fixed;
-    filter: grayscale(0.8); */
     background: rgba(117, 115, 115,0.1);
-    /* clip-path: polygon(0% 10%,100% 0,100% 90%, 0 100%); */
+  
 }
 @media(max-width:60rem){
-    /* .about-section .img-right{
-        float: none;
-        margin: auto;
-        
-    }
-    .about-section .img-left{
-        float: none;
-        margin: 1rem;
-        
-    }    */
+    .about-section img{
+    width: 100%;
+    height: 50vh;
+   
+}
 }
