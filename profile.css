@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    --bg-light-color: #fff;
+    --bg-dark-color:#2C3A47;
+    --primary-color:#aeaeaf;
+    --option-bg:#d8eec8;
+    --secondary-color:#cbdf91cc;
+    --yellow-color:#768d33;
+    --green-color:#27ae60;
+
+}
+
+.profile-container{
+  width: 100%;
+  height: 70vh;
+  max-width: 60rem;
+  margin: auto;
+  position: relative;
+}
+.profile-section-container{
+    width: 100%;
+    max-width: 60rem;
+    margin: auto;
+  }
+#section1-profile-hero{
+    width: 100%;
+    height: 70vh;
+    background: linear-gradient( rgba(0,0,0,0.9)2%,rgba(255,255,255,0.2)),url(img2/tomoto.jpeg) center center/cover no-repeat border-box;
+    margin: auto;
+    position: relative;
+    
+}
+
+.section1-profile-hero{
+    width: 100%;
+    max-width: 40rem;
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+    margin: auto;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom: 0;
+}
+.section1-profile-img{
+    width: 50%;
+    height: 100%;
+    min-width: 250px;
+}
+.section1-profile-img img{
+    width: 100%;
+    height: 100%;
+}
+.section1-profile-intro{
+    width: 50%;
+    height: 100%;
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#section2-study{
+background: var(--bg-light-color);
+padding: 4rem 0;
+
+}
+.section2-study{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 1rem;
+    overflow: hidden;
+ 
+    }
+.study-header{
+    width: 10rem;
+     border: 2px solid var(--bg-dark-color);
+}
+.section2-study >div{
+    background: var(--secondary-color);
+ }
+.section2-study > div:nth-child(even) {
+    transform: translateX(-8px);
+ }
+.study{
+    padding: 1rem;
+    border-right: 0.5rem solid rgb(70, 68, 68);
+    text-align: right;
+    transition:  all 1s ;
+}
+
+.study-2{
+    padding: 1rem;
+    border-left: 0.5rem solid #333;
+    text-align: left;
+}
+
+.study1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+.study2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    
+}
+.study3{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.study4{
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+.study5{
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+.study6{
+    grid-row: 6/7;
+    grid-column: 2/3;
+}
+.study7{
+    grid-row: 7/8;
+    grid-column: 1/2;
+}
+
+
+@media(max-width:30rem){
+    #section2-study{
+        padding:0;
+    }
+    .study{
+        border-right: 0.2rem solid rgb(70, 68, 68);
+    }
+    .study-2{
+        border-left: 0.2rem solid rgb(70, 68, 68);
+    }
+    .section1-profile-hero{
+        position: absolute;
+        height: 65vh;
+        background: none;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .section1-profile-img{
+        width: 100%;
+        height: 50%;
+        min-width: 250px;
+        
+        
+    }
+    .section1-profile-intro{
+        background: #2C3A47;
+        height: 50%;
+        width: 100%;
+        
+ 
+    }
+}
+@media(max-width:60rem){
+    #section2-study{
+        padding:0;
+    }
+    .section2-study{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-top: 1rem;
+        
+        }
+        .study1{
+            grid-column: 1/2;
+            
+        
+        }
+        .study2{
+            
+            grid-column: 1/2;
+            
+        }
+        .study3{
+            
+            grid-column: 1/2;
+        }
+        .study4{
+            grid-column: 1/2;
+        }
+        .study5{
+            grid-column: 1/2;
+        }
+        .study6{
+            grid-column: 1/2;
+        }
+        .study7{
+            grid-column: 1/2;
+        }
+        
+          .section2-study > div:nth-child(even)
+        {
+             transform: translateX(0px);           
+          }  
+}

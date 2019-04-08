@@ -1,0 +1,15 @@
+{
+    "name": "Rice Research World",
+    "short_name": "Rice Web",
+    "start_url": "/",
+    "disply":"standalone",
+    "background_color": "red",
+    "description": "Rice Research World Web",
+    "icon":[
+        {
+            "src": "img2/rice-plants.png",
+            "size": "192x192",
+            "type":"img2/png"
+        }
+    ]
+}

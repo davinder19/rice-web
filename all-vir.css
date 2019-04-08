@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+#all-vir-hero-section{
+    width: 100%;
+    height: 60vh;
+    padding: 0;
+
+}
+.all-vir-hero-section{
+    height: 100%;
+    width: 100%;
+    background: url(img2/img12.jpeg) center center/cover no-repeat border-box;
+}
+.top-vir-hero-section{
+    height: 100%;
+    width: 100%;
+    background: url(img2/img10.jpeg) center center/cover no-repeat border-box;
+    
+}
+.new-vir-hero-section{
+    height: 100%;
+    width: 100%;
+    background: url(img2/img5.jpg) center center/cover no-repeat border-box;
+    
+}
+#all-vir-section{
+    background: var(--bg-light-color);
+
+}
+
+
+.all-vir-section{
+    width: 100%;
+    max-width: 50rem;
+    
+    margin: auto;
+}
+
+.all-vir-section h2{
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+    color: var(--dark-color);
+    text-align: center;
+    /* margin-top: 4rem; */
+    margin: 1rem 0;
+    
+}
+.all-vir-section p ,h1{
+    padding: 0 0.5rem;
+}
+.all-vir-section img{
+    width: 100%;
+    height: 50vh;
+    margin-top: 1rem;
+}
+#all-vir-section table{
+    width: 100%;
+    background: var(--firstOpt-bg);
+
+}
+#all-vir-section table, th, td{
+    font-size: 1rem;
+    border: 1px solid green;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    text-align: center;
+}
+#all-vir-section table th, td:hover{
+    background: var(--bg-light-color);
+}
+#all-vir-section table a{
+  text-decoration: none;
+  color: var(--dark-color);
+}
+#all-vir-section table td:hover a{
+    text-decoration: none;
+    color: var(--green-color);
+    
+  }
+ #all-vir-section table th{
+    background: var(--yellow-color);
+    color: var(--dark-color);
+    
+}
+
+@media (max-width:40rem){
+    #all-vir-section table, th, td{
+        font-size: 0.7rem;
+    }
+    .all-vir-section img{
+        width: 100%;
+        height: 40vh;
+    }
+    
+}
