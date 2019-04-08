@@ -88,7 +88,7 @@ body{
 .main-section .small-img{
     width: 100%;
    max-width: 25rem;
-    height: 25vh;
+    height: 35vh;
     
 }
 .main-section .img-right{
@@ -116,11 +116,11 @@ body{
     }    
        .main-section .med-img{
         width: 100%;
-        height: 35vh;
+        height: 40vh;
         margin-top: 1rem;
     }
     .main-section .small-img{
     width: 100%;
-    height: 35vh;
+    height: 40vh;
    }
 }
